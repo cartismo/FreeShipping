@@ -1,0 +1,16 @@
+{
+    "name": "FreeShipping",
+    "alias": "freeshipping",
+    "description": "Free shipping module with configurable minimum order amount",
+    "keywords": ["shipping", "free shipping", "delivery"],
+    "priority": 0,
+    "providers": [
+        "Modules\\FreeShipping\\Providers\\FreeShippingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "type": "shipping",
+    "version": "1.0.0",
+    "is_core": false
+}

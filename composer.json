@@ -1,0 +1,25 @@
+{
+    "name": "cartismo/free-shipping",
+    "description": "Free shipping module for Cartismo",
+    "type": "cartismo-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Cartismo",
+            "email": "support@cartismo.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\FreeShipping\\Providers\\FreeShippingServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\FreeShipping\\": ""
+        }
+    }
+}
